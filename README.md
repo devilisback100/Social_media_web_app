@@ -1,4 +1,3 @@
-# Getting Started with Create React App
 
 # This is my social_media_web app using different technology
 
