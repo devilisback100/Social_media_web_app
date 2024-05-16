@@ -1,0 +1,161 @@
+.form2_parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form2_parent_container {
+    display: grid;
+    position: relative;
+    outline: 2px solid green;
+    width: 70%;
+    height: 95%;
+    grid-template-rows: 5% 10% 16% 16% 13% 12% 12% 7%;
+    grid-template-columns: 95%;
+    row-gap: .9%;
+    justify-content: space-around;
+}
+
+.form2_child_container_1 {
+    display: inline-grid;
+}
+
+.form2_child_container_2 {
+    display: inline-grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form2_child_container_3 {
+    display: inline-grid;
+    position: relative;
+}
+
+.form2_child_container_4 {
+    display: inline-grid;
+}
+
+.form2_child_container_5 {
+    display: inline-grid;
+}
+
+.form2_child_container_6 {
+    display: inline-grid;
+}
+
+.form2_child_container_7 {
+    display: inline-grid;
+}
+
+.form2_child_container_8 {
+    display: inline-grid;
+}
+
+.form2_child_container_1 p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: auto;
+    height: max-content;
+    width: max-content;
+    margin-left: 2%;
+}
+
+.Profile_Image {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto auto auto;
+    background-color: #996EF3;       padding: 2.5px;
+}
+
+.Form_Text_2 {
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+.form2_child_container_4 textarea {
+    width: 60%;
+    margin-left: 5%;
+    border-radius: .7rem;
+    height: 4rem;
+    background-color: #F0E8F7;
+    border: 1px solid black;
+}
+
+.form2_child_container_4 label,
+.form2_child_container_5 label,
+.form2_child_container_6 label,
+.form2_child_container_7 label {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.form_2_input_design {
+    border-radius: .5rem;
+    background-color: #F0E8F7;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 5%;
+    height: 3rem;
+}
+
+.form_2_input_design::placeholder,
+.Form_Text_2::placeholder {
+    color: transparent;
+}
+
+.form_2_input_design:focus,
+.Form_Text_2:focus {
+    outline: none;
+}
+
+.Next_Form_2_button {
+    background-color: #78C480;
+    width: 20%;
+    border: none;
+    border-radius: .7rem;
+    margin-left: auto;
+}
+
+@media only screen and (max-width:500px) {
+
+    label,
+    .form2_child_container_2 {
+        display: none;
+    }
+.form2_parent_container{
+    width: 95%;
+}
+    .form_2_input_design::placeholder,
+    .Form_Text_2::placeholder {
+        color: #555
+    }
+
+    .form2_child_container_1 p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form2_parent_container {
+        grid-template-rows: 5% 16% 16% 13% 12% 12% 7%;
+        row-gap: 2%;
+    }
+
+    .form_2_input_design,
+    .form2_child_container_4 textarea,
+    .Next_Form_2_button {
+        width: 95%;
+    }
+
+    .form2_child_container_3,
+    .form2_child_container_4,
+    .form2_child_container_5,
+    .form2_child_container_6,
+    .form2_child_container_7,
+    .form2_child_container_7 button {
+        margin: auto;
+    }
+}

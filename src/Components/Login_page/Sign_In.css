@@ -1,0 +1,196 @@
+#Parent_SignIn_container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#Parent_SignIn_box {
+    display: grid;
+    width: 30vw;
+    height: 60vh;
+    background-image: linear-gradient(rgb(201, 141, 236) 35%, rgb(216, 138, 222) 75%);
+    border-radius: 1vh;
+    row-gap: 2%;
+    grid-template-rows: 11% 30% 10% 20% 20%;
+}
+
+#Child_SignIn_box1 {
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #6A1193;
+    margin-top: 1vw;
+}
+
+#Child_SignIn_box2 {
+    display: inline-grid;
+    align-items: center;
+    row-gap: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    row-gap: 1vw;
+}
+
+#Child_SignIn_box3 {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 2vw;
+    flex-direction: row;
+    column-gap: .7vw;
+}
+
+#Child_SignIn_box4 {
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+#Child_SignIn_box5 {
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1vw;
+}
+
+#Child_SignIn_box5 P {
+    display: inline;
+    width: max-content;
+    height: max-content;
+    margin-top: auto;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 500;
+}
+#Child_SignIn_box5 P:hover{
+    color: #6A1193;
+}
+
+.Sign_detail {
+    border: none;
+    background-color: #FDE3FE;
+}
+
+.Sign_detail::placeholder {
+    color: #AC28A7;
+}
+
+.Sign_detail:focus {
+    outline: 1px solid #84047f;
+}
+
+#Sign_In_submit {
+    background-color: #A42EEC;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    width: 15vw;
+    margin-top: auto;
+    height: 70%;
+}
+
+.checkbox_1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    cursor: pointer;
+}
+
+#Child_SignIn_box3 div {
+    display: inline-flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:1000px) {
+    #Parent_SignIn_box {
+        width: 50vw;
+        height: 60vh;
+        grid-template-rows: 11% 25% 10% 20% 20%;
+        row-gap: 1%;
+    }
+
+    #Child_SignIn_box1 {
+        font-size: 5vw;
+    }
+
+    #Child_SignIn_box2 {
+        row-gap: 2vw;
+        margin-top: 6vh;
+    }
+
+    #Child_SignIn_box3 {
+        margin-top: 7vh;
+    }
+
+    .checkbox_1 {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #Sign_In_submit {
+        width: 30vw;
+        height: 50%;
+    }
+
+    #Child_SignIn_box4 {
+
+        margin-top: 10vh;
+    }
+
+    #Child_SignIn_box5 {
+        margin-top: 7vh;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    #Parent_SignIn_box {
+        width: 90vw;
+        height: 70vh;
+        grid-template-rows: 11% 25% 10% 20% 20%;
+        row-gap: 1%;
+    }
+
+    #Child_SignIn_box1 {
+        font-size: 10vw;
+        font-weight: 450;
+    }
+
+    #Child_SignIn_box2 {
+        row-gap: 3vw;
+        margin-top: 4vh;
+    }
+
+    #Child_SignIn_box3 {
+        margin-top: 5vh;
+    }
+
+    .checkbox_1 {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #Sign_In_submit {
+        width: 50vw;
+        height: 50%;
+    }
+
+    #Child_SignIn_box4 {
+
+        margin-top: 10vh;
+    }
+
+    #Child_SignIn_box5 {
+        margin-top: 7vh;
+    }
+
+}

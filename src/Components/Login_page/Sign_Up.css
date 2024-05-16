@@ -1,0 +1,122 @@
+#signUp_parent_container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#signUp_parent_box {
+    border-radius: 1vh;
+    display: grid;
+    width: 31vw;
+    height: 60vh;
+    background-image: linear-gradient(rgb(201, 141, 236) 35%, rgb(216, 138, 222) 75%);
+    align-items: center;
+    justify-items: center;
+    row-gap: 1%;
+    grid-template-rows: 8% 80% 10%;
+}
+
+#signUp_parent_text_1 {
+    display: inline-flex;
+    text-align: center;
+    font-weight: 500;
+    color: #6A1193;
+    font-size: 2vw;
+    justify-content: center;
+}
+
+#signUp_parent_box_2 {
+    display: inline-grid;
+    /* background-color: white; */
+    width: 26vw;
+    flex-direction: column;
+    grid-template-rows: 15% 15% 15% 15%;
+    row-gap: 10%;
+    margin-top: 2vw;
+
+}
+
+.Sign_detail {
+    border: none;
+    background-color: #FDE3FE;
+}
+
+.Sign_detail::placeholder {
+    color: #AC28A7;
+}
+
+.Sign_detail:focus {
+    outline: 1px solid #84047f;
+}
+
+#Sign_Up_submit {
+    background-color: #A42EEC;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    width: 15vw;
+}
+
+.signUp_parent_box_3 {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -1vw;
+}
+
+
+@media only screen and (max-width:1000px) {
+    #signUp_parent_box {
+        width: 65vw;
+        height: 70vw;
+    }
+
+    #signUp_parent_text_1 {
+        font-weight: 500;
+        font-size: 4vw;
+        margin-top: 4vw;
+    }
+
+    #signUp_parent_box_2 {
+        width: 90%;
+        grid-template-rows: 14% 14% 14% 14%;
+        row-gap: 8%;
+        margin-top: 9vw;
+    }
+
+    #Sign_Up_submit {
+        width: 50%;
+        margin-top: -3.5vw;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    #signUp_parent_box {
+        width: 90vw;
+        height: 80vh;
+        grid-template-rows: 10% 70% 10%;
+        row-gap: 4%;
+
+        margin-top: -10vw;
+    }
+
+    #signUp_parent_box_2 {
+        width: 90%;
+        row-gap: 10%;
+        grid-template-rows: 13% 13% 13% 13%;
+        margin-top: 10vw;
+    }
+
+    #signUp_parent_text_1 {
+        font-weight: 400;
+        font-size: 12vw;
+        margin-top: 7vw;
+    }
+
+    #Sign_Up_submit {
+        width: 50%;
+        margin-top: -8vw;
+    }
+}
