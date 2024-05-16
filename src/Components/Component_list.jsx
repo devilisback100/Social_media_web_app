@@ -1,0 +1,7 @@
+export { default as SignIn } from './Login_page/Sign_In.jsx'
+export { default as SignUp } from './Login_page/Sign_Up.jsx'
+export { default as Form1 } from './Login_page/Form_1.jsx'
+export { default as Form2 } from './Login_page/Form_2.jsx'
+export { default as Profile } from './Profile_page/Profile_page.jsx'
+export {default as MenuPage} from './Profile_page/Menu_page.jsx'
+export {default as Feed} from './Home_page/Feed_page/Feed.jsx'
