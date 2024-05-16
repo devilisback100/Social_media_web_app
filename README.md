@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+# This is my social_media_web app using different technology
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
